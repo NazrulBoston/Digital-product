@@ -25,10 +25,15 @@
     display: flex;
 }
 
+nav li a{
+    text-decoration: none;
+    color:white;
+}
 .item{
     margin-right: 20px;
     padding-right: 7px;
     font-size: 15px;
+  
 }
 
 .item:hover{
@@ -185,3 +190,11 @@
 .hr-bottom{
     color: white;
 }
+
+/* .copy{
+    display: flex;
+    justify-content: align;
+    background-color: #080808;
+    color:aliceblue;
+
+} */

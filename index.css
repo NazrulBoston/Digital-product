@@ -1,0 +1,187 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.menu-container{
+    background-color: rgb(78, 74, 74) ;
+    padding:20px;
+    color:white;
+    list-style: none;
+    display: flex; 
+    align-items:center ;
+    justify-content: space-between;
+
+}
+
+.logo-photo{
+    width: 120px;
+}
+.logo{
+    margin-left: 300px;
+}
+
+.menus{
+    display: flex;
+}
+
+.item{
+    margin-right: 20px;
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+.item:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    height:100vh;
+    /* border: 2px solid red; */
+    background-image: url("./images/background.png"), linear-gradient(45deg,#474242,#2b2626);
+    color:white;
+    justify-content: space-around;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(218, 107, 107);
+    border:none;
+    border-radius: 3px;  
+    color:white; 
+}
+
+.btn:hover{
+    color: rgb(14, 3, 1);
+    cursor: pointer;
+}
+
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-direction: row-reverse;
+   padding: 10px;
+
+}
+.about-title
+{ 
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.info-heading{
+    margin-bottom: 5px;
+}
+.btn-info{
+    
+    margin-top: 7px;
+}
+
+.info-para{
+    font-size: 14px;
+}
+
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+
+.icon{
+    width: 70px;
+
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+
+}
+
+.box-title{
+    padding:10px;
+
+}
+
+.box-description{
+    padding:5px;
+
+}
+
+.servie-container{
+    display: flex;
+    justify-content: space-around;
+   padding: 20px;
+}
+
+.service-back{
+    background-color: #474242;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-title{
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+    padding:60px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+    
+
+
+.geekfolio{
+    width: 200px;
+    margin-left: 100px;
+}
+.contact{
+    margin-right: 100px;
+}
+
+.footer-down{
+    margin-bottom: 10px;
+}
+
+.hr-bottom{
+    color: white;
+}
